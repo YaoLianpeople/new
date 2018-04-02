@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100px;
+            animation: infinite 10s car;
+        }
+        @keyframes car {
+            45% {
+                transform: translate(1000px);
+            }
+            50% {
+                transform: translate(1000px)
+                rotateY(180deg);
+            }
+            95% {
+                transform: translate(0)
+                rotateY(180deg);
+            }
+            100% {
+                transform: translate(0)
+                rotateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="images/car.jpg" alt="">
+</body>
+</html>

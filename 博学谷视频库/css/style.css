@@ -1,0 +1,187 @@
+/*帽子*/
+.cap {
+    color: #aaa;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+/*帽子结束*/
+/*脑袋*/
+header {
+    background-color: #2e3340;
+    height: 82px;
+}
+header img {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+header li {
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 82px;
+}
+header a {
+    color: #fff;
+    font-size:20px;
+}
+/*脑袋结束*/
+/*广告开始*/
+nav {
+    background-color: #f6f6f6;
+}
+nav .top {
+    height: 57px;
+    position: relative;
+}
+nav .top  ul {
+        position: absolute;
+    left: 0;
+}
+nav .top  li {
+    display: inline-block;
+
+}
+nav .top a {
+    font-size: 12px;
+    color: #323846;
+    line-height: 57px;
+}
+nav .bot {
+    margin-bottom: 22px;
+}
+/*广告结束*/
+/*身体开始*/
+.bodyer {
+    background-color: #f6f6f6;
+}
+.bodyer .w {
+    background-color: #fff;
+    padding: 86px 0 50px 47px;
+}
+.low {
+    padding-top: 12px;
+    padding-left: 22px;
+    padding-bottom: 55px;
+    border-left: solid 1px #5b606b;
+}
+.low h2 {
+    font-size: 22px;
+    padding-bottom: 33px;
+}
+.box {
+    width: 265px;
+    height: 250px;
+    padding-bottom: 18px;
+    background-color: #f6f6f6;
+    margin-right: 5px;
+    display: inline-block;
+}
+.box p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.box span {
+    font-size: 12px;
+    color: #777;
+}
+.zuo {
+    margin-left: 10px;
+}
+.you {
+    margin-left: 95px;
+}
+.foot {
+    margin-top: 35px;
+    text-align: center;
+}
+.foot span {
+    color: #777;
+    font-size: 12px;
+}
+.foot a {
+    font-size: 12px;
+}
+/*身体结束*/
+/*脚开始*/
+footer {
+    background-color: #2e3340;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+footer > .w > div{
+    display: inline-block;
+}
+.help dl {
+    margin-right: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+.help dt {
+        margin-bottom: 30px;
+}
+.help dt a{
+    font-size: 14px;
+    color: #fff;
+}
+.help dd {
+    margin-bottom: 14px; 
+}
+.help dd a {
+    color: #b0bcd0;
+    font-size: 12px;
+}
+.help dl:nth-child(3) {
+    margin-right: 0;
+}
+.two-ma {
+    padding: 5px 56px 24px 150px;
+    border-right: solid 1px #48526c;
+    width: 310px;
+}
+.two-ma div {
+    display: inline-block;
+}
+.two-ma  p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.two-ma img {
+    height: 120px;
+}
+ .yyy div {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 36px;
+ }
+ .fx {
+    background: url(../images/icon.png) -79px -479px;
+ }
+.xl {
+    background: url(../images/icon.png) 0 -383px;
+}
+.kj {
+    background: url(../images/icon.png) -77px -380px;
+}
+.yyy p {
+    font-size: 12px;
+    color: #b0bcd0;
+    margin-bottom: 10px;
+}
+.zzz {
+    
+}
+.zzz p {
+    font-size: 12px;
+    color: #b0bcd0;
+    text-align: center;
+}
+.zzz p:nth-child(1) {
+    margin-top: 36px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 300px;
+            width: 150px;
+            margin: 200px auto;
+            background-color: #ccc;
+            position: relative;
+        }
+        p {
+            line-height: 500px;
+            text-align: center;
+            color: #fff;
+            transition: 1s;
+        }
+        .box:hover p {
+            opacity: 0.3;
+        }
+        .fyd {
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: #777;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 30px;
+            margin: auto;
+            transform: scale(0);
+            opacity: 0;
+            transition: 0.4s;
+        }
+        .box:hover .fyd {
+            opacity: 1;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>emmm???</p>
+        <div class="fyd">hey!</div>
+    </div>
+</body>
+</html>

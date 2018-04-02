@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        nav {
+            margin: 100px auto;
+            width: 882px;
+            height: 86px;
+            border:solid 1px pink;
+            overflow: hidden;
+        }
+        .box {
+            width: 1764px;
+            animation: fyd 5s linear infinite;
+        }
+        img {
+            float: left;
+        }
+        @keyframes fyd {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-882px);
+            }
+        }
+        .box:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="box">
+            <img src="images/nav1.jpg" alt="">
+            <img src="images/nav2.jpg" alt="">
+            <img src="images/nav3.jpg" alt="">
+            <img src="images/nav4.jpg" alt="">
+            <img src="images/nav5.jpg" alt="">
+            <img src="images/nav6.jpg" alt="">
+            <img src="images/nav7.jpg" alt="">
+            <img src="images/nav1.jpg" alt="">
+            <img src="images/nav2.jpg" alt="">
+            <img src="images/nav3.jpg" alt="">
+            <img src="images/nav4.jpg" alt="">
+            <img src="images/nav5.jpg" alt="">
+            <img src="images/nav6.jpg" alt="">
+            <img src="images/nav7.jpg" alt="">
+        </div>
+    </nav>
+</body>
+</html>

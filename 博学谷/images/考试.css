@@ -1,0 +1,224 @@
+/*css初始化*/
+body,div,h1,h2,h3,h4,h5,h6,img,ul,li,a,input,dl,dt,dd,span,p{
+	padding:0;
+	margin:0;
+	font-family:microsoft yahei,song typeface;
+}
+body{
+	background:#F7F7F7;
+}
+ul li{
+	/*list-style:none;*/
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clearfix:after{
+	display:block;
+	content:".";
+	height:0;
+	line-height:0;
+	visibility:hidden;
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+.f1{
+	float:left;
+}
+.f2{
+	float:right;
+}
+.w{
+	width: 1200px;
+	margin:0 auto;
+}
+/*logo部分*/
+.logo{
+	height:60px;
+	background:white;
+	margin-bottom:25px;
+}
+.logo img{
+	margin-top:10px;
+}
+.logo ul li{
+	list-style:none;
+	float:left;
+}
+.logo ul li a{
+	padding:12px;
+	color:#000;
+}
+.logo ul li a:hover{
+	color:#2FAE36;
+}
+.logo p a{
+	font-size: 12px;
+	color:#000;
+	padding:0 15px;
+}
+/*banner栏*/
+.banner .dt{
+	height: 382px;
+	border:1px solid #ccc;
+	background:white;
+}
+.banner .dt h3{
+	width:210px;
+	height: 50px;
+	line-height: 50px;
+	font-size:18px;
+	font-weight: 500;
+	padding-left:40px;
+	background: url(icon.png) no-repeat left;
+}
+.banner .dt ul{
+	width: 220px;
+	height: 300px;
+	margin:0px 0px 15px 4px;
+}
+.banner .dt ul li a{
+	height:35px;
+	line-height: 35px;
+	font-size:12px;
+}
+.banner .dt ul li a:hover{
+	color:red;
+}
+/*热门推荐*/
+.tui .re{
+	width: 104px;
+	height: 168px;
+	margin-right:20px;
+	border:2px solid #ccc;
+}
+.tui .ke{
+	width: 252px;
+	height: 168px;
+	border:2px solid #ccc;
+	margin-right: 15px;
+}
+.tui .ke .ban{
+	font-style: 12px;
+	margin:10px 0 0 15px; 
+}
+.clearfix>p{
+	font-size:12px;
+	color:#99B4CB;
+	margin-left:15px;
+}
+.clearfix>p>span{
+	color:red;
+}
+/*职业课程*/
+.zi{
+	height:50px;
+	line-height:50px;
+	border-bottom:2px solid #ccc;
+	font-weight: 400;
+	padding-left:10px;
+	margin-bottom: 10px;
+}
+.jiu li{
+	list-style:none;
+	float:left;
+}
+.jiu li a{
+	margin:0 20px;
+	font-size:14px;
+}
+.jiu li a:hover{
+	color:#2CBE9A;
+	border:1px solid #2CBE9A;
+}
+.web{
+	margin-top:15px;
+}
+.web .hu{
+	width: 285px;
+	height: 253px;
+	border:1px solid #ccc;
+	margin-right:10px;
+}
+.web .hu img{
+	display:block;
+	height:170px;
+	margin:0 auto;
+}
+.web .hu .kai{
+	font-size: 16px;
+	padding-left:20px;
+	margin:2px 0;
+}
+.web .hu .shi{
+	font-size:12px;
+	color:#99B4CB;
+	margin-left:15px;
+	margin:2px 0;
+}
+/*学员故事*/
+.xue{
+	height: 200px;
+}
+.xue .yuan{
+	width: 386px;
+	height: 164px;
+	background:white;
+	margin-right:12px;
+}
+.jie{
+	width: 100px;
+	margin:15px 0px 0px 10px;
+}
+.jie>p{
+	width:80px;
+	text-align:center;
+}
+.shao{
+	width: 270px;
+}
+.shao>p{
+	color:#2CB82C;
+}
+.shao>p>span{
+	color:#666666;
+	font-size: 12px;
+}
+/*博学谷课堂*/
+.bottom{
+	height:160px;
+}
+.classroom{
+	width: 440px;
+	height:157px;
+}
+.classroom p{
+	font-size: 12px;
+}
+.guan {
+	width: 182px;
+	margin-left:20px;
+}
+.guan h4{
+	padding-left:60px;
+}
+.guan .t1{
+	margin:20px 0 0 60px;
+}
+.you{
+	width:540px;
+}
+.you a{
+	font-size: 12px;
+	padding:0 15px;
+}
+.you a:hover{
+	color:red;
+}
+footer{
+	text-align: center;
+	border-top:1px solid #ccc;
+}

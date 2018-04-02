@@ -1,0 +1,190 @@
+/*帽子*/
+.cap {
+    height: 40px;
+    background-color: #333;
+}
+.cap li {
+    display: inline-block;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 40px;
+}
+.L {
+    width: 1px;
+    margin: 0 10px;
+    background-color: #40403b;
+    height: 12px;
+}
+/*帽子掉了*/
+/*脑袋*/
+.header {
+    height: 60px;
+    margin: 20px 0;
+}
+.header li {
+    display: inline-block;
+    margin-right: 27px;
+}
+.header li a {
+    font-size: 16px;
+}
+.header ul {
+    margin-top: 25px;
+}
+.I {
+    margin-top: 5px;
+}
+/*脑袋结束*/
+/*身体*/
+.top {
+    background-color: #6dc9ee;
+}
+.top .fl {
+    background-color: rgba(0,0,0,.5);
+}
+.top .fl ul {
+    width: 164px;
+    height: 400px;
+    padding: 30px 30px;
+
+}
+.top li {
+    margin-bottom: 26px;
+    width: 164px;
+}
+.top a , .top span {
+    color: #fff;
+}
+.donw li {
+    display: inline-block;
+    margin-top: 14px;
+    margin-right: 11px;
+    margin-bottom: 66px;
+}
+.donw img {
+    height: 170px;
+}
+/*身体结束*/
+/*腿*/
+.hui {
+    background-color: #f5f5f5;
+    padding-top: 78px;
+}
+.tab {
+    margin-bottom: 18px;
+}
+.tab h2 {
+    display: inline-block;
+    font-size: 22px;
+}
+.tab a {
+    font-size: 16px;
+}
+.lyq li {
+    margin-bottom: 17px;
+    margin-right: 12px;
+    background-color: #fff;
+    float: left;
+    width: 162px;
+    height: 226px;
+    padding: 36px 37px;
+}
+.lyq .mr0 {
+    margin-right: 0;
+}
+.lyq > img {
+    margin-right: 12px;
+}
+.lyq .p1 {
+    font-size: 12px;
+}
+.lyq .p2 {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.lyq .p3 {
+    font-size: 16px;
+    color: #ff6700;
+}
+.lyq div {
+    text-align: center;
+    line-height: 23px;
+}
+/*腿结束*/
+/*脚*/
+.footer dl {
+  float: left;
+  margin-right: 115px;
+  margin-top: 60px;
+
+}
+.footer dt {
+  margin-bottom: 34px;
+  color: black;
+  font-size: 16px;
+}
+.footer dd {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+.lin {
+  height: 112px;
+  background-color: #423d39;
+  width: 1px;
+  margin-top: 61px;
+  margin-right: 30px;
+}
+.number {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  
+}
+.number h2 {
+  margin-top: 66px;
+  color: #ff6700;
+}
+.number p {
+  font-size: 12px;
+  color: #ccc;
+}
+/*没脚了*/
+/*鞋子部分*/
+.col2 {
+   height: 160px;
+   background-color: #f5f5f5;
+   padding: 30px 148px;
+}
+.footer2 li {
+    float: left;
+    display: inline-block;
+    height: 160px;
+    line-height: 50px;
+    margin-left: 14px;
+    font-size: 12px;
+}
+.footer2 .line {
+  height: 20px;
+  width: 1px;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper p {
+  position: absolute;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 50px;
+  color: #ccc;
+  font-family: "宋体"；
+}
+.wrapper h2 {
+  position: absolute;
+  font: bold 16px "微软雅黑";
+  color: #ccc;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 100px;
+  margin-left: 500px;
+}

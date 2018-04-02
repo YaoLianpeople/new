@@ -1,0 +1,50 @@
+body,ul,h1,h2,h3,h4,h5,h6,p,input,button,dl,dt,dd,form {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px "microsoft yahei";
+    color: #000;
+    background-color: #f8f8f8;
+}
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+input,button {
+    border: 0 none;
+    outline-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*a:hover {
+    color: #00a4ff;*/
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.qcfd:before,.qcfd:after {
+    content: "";
+    display: table;
+}
+.qcfd:after {
+    clear: both;
+}
+.qcfd {
+    zoom: 1;
+}
+.zt {
+    width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+.header .zt {
+    padding: 30px 0;
+}
+.header .zt li {
+    display: inline-block;
+    padding: 0 20px 20px;
+    height: 22px;
+}
+.header .zt li a {
+    font-size: 18px;
+    
+}
